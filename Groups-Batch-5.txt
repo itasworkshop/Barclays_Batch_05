@@ -1,0 +1,22 @@
+Groups
+Group-1
+Ishitaa, Raviteja, Harini, Vaishnavi
+
+Group-2
+Keertana, Ankit, Ishika, Meenakshi
+
+Group-3
+Aryan,Jyoti,Rutuja
+
+Group-4
+Rohit, Swapnali, Samvartika, Manvi
+
+Group-5
+Riddhi,sandesh,Nihal,pritee
+
+Group-6
+Shivamdhar, Shivani Priya, Shreya
+
+
+
+

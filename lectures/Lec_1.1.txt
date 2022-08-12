@@ -1,0 +1,13 @@
+Git --> version control system
+Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+
+as part of SDLC 
+App-2.4.56 2.4.57
+
+2.4 to 2.5
+
+2.4.5 to 3.0.0 --> major change
+
+In order to keep all change records in different versions of software we can use --> which part got changed
+
+Repository --> directory
