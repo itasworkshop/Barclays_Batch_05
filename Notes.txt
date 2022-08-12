@@ -1,0 +1,38 @@
+1. Cloning 
+
+git clone 'address'
+ 
+2. git status
+
+3. Make your changes
+
+4. Verify in the system local
+
+5. git add 'particular file'
+
+Note-
+Set git config
+
+ git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+
+6. If you need to restore
+
+$ git restore --staged 'filename'
+
+7. git push -u origin main
+
+git add
+git commit
+git push
+
+
+
+-------------------------------------------------------------
+
+Just to change to different  branch 
+
+Git checkout 'branchname'
+
+
