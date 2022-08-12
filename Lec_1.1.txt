@@ -19,3 +19,12 @@ Commands for creating new repository
 2) Initialise
 git init
 3) Adding files to working tree
+git add Groups-Batch-5.txt Lec_1.1.txt  examples/ lectures/
+
+4)git commit -m "first commit"
+
+5) git branch -M main
+
+6) git remote add origin https://github.com/itasworkshop/Barclays_Batch_05.git
+
+7) git push -u origin main
