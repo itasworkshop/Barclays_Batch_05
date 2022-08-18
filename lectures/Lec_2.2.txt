@@ -1,0 +1,21 @@
+Gradle Build Tool
+
+
+Download and setup
+1) get gradle binaries
+https://gradle.org/releases/
+
+2) Unzip in your desired location
+3) set the path
+C:\Softwares\Gradle\gradle-7.5.1\bin
+
+4) verify your set up
+gradle -v
+
+Documentation
+https://docs.gradle.org/current/samples/sample_building_java_applications.html
+
+steps:
+1) mkdir demo-gradle
+2) cd demo-gradle
+3) 
