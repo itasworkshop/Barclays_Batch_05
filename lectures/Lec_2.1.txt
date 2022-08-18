@@ -1,0 +1,75 @@
+Build Tools
+
+build/executable
+
+.java file --> compiled --> .class file
+
+collection of .class files --> JAR/WAR
+
+JAR --> we provide to clients
+
+1) Maven
+2) Gradle
+
+
+Maven
+Apache Maven is a software project management and comprehension tool. 
+Based on the concept of a project object model (POM).
+Maven can manage a project's build, reporting and documentation from a central piece of information.
+
+Setting up maven
+Maven 3
+
+1) Download 
+https://maven.apache.org/download.cgi
+
+2)Take it to desired location and unzip
+
+3) set envrionment variable for maven
+Path
+C:\Softwares\apache-maven-3.8.6\bin
+MAVEN_HOME
+C:\Softwares\apache-maven-3.8.6
+
+4) verify your installation
+mvn --version
+
+5) creating project using maven
+
+mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=true
+
+6) Important commands
+mvn clean --> removes existing build if any
+
+mvn compile --> compiles source code
+
+mvn test-compile --> compiles all test classes
+
+mvn test --> for running all test cases
+
+mvn package --> create jar or war file for final distribution
+
+mvn install --> installes executable in local repository
+
+mvn deploy --> deploye executable at remote repository
+
+Maven Lifecycle
+1) validate --> vaildates project structure
+2) compile --> compilation
+3) Test --> it runs test
+4) Package --> creates jar or war
+5) Integration test 
+6) Verify --> standards
+7) install --> local repo
+8) deploy --> remote deploy
+
+
+
+
+
+
+
+
+
+
+
