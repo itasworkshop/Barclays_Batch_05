@@ -1,0 +1,38 @@
+CI/CD 
+Build Pipeline
+
+solution for continous agile development for getting build with least human intervention
+
+20 modules --> build --> dev/test --> very hard to coordinate
+
+Developer
+requirement --> git checkout[new copy of code] --> make your changes --> in your local dev environment --> commit code --> jenkins[every 1 hour job runs] --> it takes all commit and respective from different module --> final build [2.3.4] --> be tested by testing team
+
+
+Enviornment
+dev --> laptop/shared server for dev activities
+test --> used for testing by testing
+UAT --> user acceptance testing/demo environment
+PROD --> production
+
+Devops team
+
+Jenkins --> CI/CD
+open source automation server 
+building 
+deploying and 
+automating CI/CD build cycle
+Distributed
+
+
+Setting up using war file
+1) download required war file and put into your desired location
+2) java -jar jenkins.war --httpPort=8080
+3) copy token for admin password from output
+4) open http://localhost:8080 in browser
+5) provide same token as password and proceed with installation
+6) get pulgin [optional]
+7) prompt you for new user
+8) start using jenkins
+4) 
+
