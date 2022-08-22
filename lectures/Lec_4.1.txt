@@ -1,0 +1,30 @@
+Cloud Services
+provides dynamic setup of services available
+SAAS
+IAAS
+PAAS
+
+AWS
+amazon web services
+
+
+EC2
+RDS
+EBS Elastic beanstalk
+
+Advantages
+-Admin
+-Security
+-Hardwares
+-Deployement manual --> can automate
+-Capacity provisioning
+-Auto-scaling
+-application health monitoring
+
+steps on EBS
+1) create jar
+2) EBS choose create application
+3) if ngjinx error change software configuration and give new environment variable
+SERVER_PORT = 5000
+4) apply changes will autodeploy
+5) go to server path your hello world should be visible.
